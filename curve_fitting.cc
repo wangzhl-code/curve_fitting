@@ -36,7 +36,7 @@
         // 输出结果
         std::cout << degree << "次项式系数: ";
         for (int i = degree; i >= 0; --i) {
-            std::cout << coeff(i) << " ";
+            std::cout << static_cast<double>(coeff(i)) << " ";
         }
         std::cout << std::endl;
     }

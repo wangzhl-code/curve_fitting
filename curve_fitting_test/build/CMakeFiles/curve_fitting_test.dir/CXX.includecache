@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wzl/practice/curve_fitting/curve_fitting_test/curve_fitting_test.cc
+iostream
+-
+opencv2/opencv.hpp
+-
+string
+-
+vector
+-
+numeric
+-
+
